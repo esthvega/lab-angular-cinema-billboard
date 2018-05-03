@@ -1,0 +1,11 @@
+<div class="home">
+  <div class="child" *ngFor="let m of movies">
+  <h3>  
+ {{m.title}}  
+</h3>
+<img src="{{m.poster}}" alt="">
+<div>
+<a [routerLink]="['/movie', m.id]">TO movie</a>
+</div>
+</div>
+</div>

@@ -1,0 +1,18 @@
+<h1>
+{{movie.title}}
+</h1>
+<img src="{{movie.poster}}" alt="" width="200">
+<div>
+<div>
+    Sinopsis: {{movie.synopsis}}
+</div>
+<div>
+    Género: {{movie.genres}}
+</div>
+<div>
+Horario: {{movie.hours}}
+</div>
+<div>
+Sala: {{movie.room}}
+</div></div>
+<a [routerLink]="['/home']">Go back</a>

@@ -1,0 +1,12 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 200px;
+}
+
+.child {
+    width: 270px;
+}
